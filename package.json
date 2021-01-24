@@ -13,5 +13,7 @@
     "core-js": "^3.8.2",
     "nuxt": "^2.14.12"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vue/cli-plugin-router": "^4.5.11"
+  }
 }
