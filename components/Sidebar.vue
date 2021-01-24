@@ -41,7 +41,9 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/form_field_with_addons" class="nav-link"
+              <NuxtLink
+                to="/docs/form_field#form_field_with_addons"
+                class="nav-link"
                 >Foorm field with addon</NuxtLink
               >
             </li>
@@ -59,27 +61,39 @@
         <div id="componentsMenu" class="expandible">
           <ul class="nav">
             <li class="nav-item">
-              <NuxtLink to="/docs/buttons" class="nav-link"> Buttons</NuxtLink>
+              <NuxtLink to="/docs/components/buttons" class="nav-link">
+                Buttons</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/cards" class="nav-link"> Cards</NuxtLink>
+              <NuxtLink to="/docs/components/cards" class="nav-link">
+                Cards</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/modals" class="nav-link">Modal</NuxtLink>
+              <NuxtLink to="/docs/components/modals" class="nav-link"
+                >Modal</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/notifications" class="nav-link"
+              <NuxtLink to="/docs/components/notifications" class="nav-link"
                 >Notifications</NuxtLink
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/navs" class="nav-link">Navs</NuxtLink>
+              <NuxtLink to="/docs/components/navs" class="nav-link"
+                >Navs</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/navbar" class="nav-link">Navbar</NuxtLink>
+              <NuxtLink to="/docs/components/navbar" class="nav-link"
+                >Navbar</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/list" class="nav-link"> List</NuxtLink>
+              <NuxtLink to="/docs/components/list" class="nav-link">
+                List</NuxtLink
+              >
             </li>
 
             <li class="nav-item">
