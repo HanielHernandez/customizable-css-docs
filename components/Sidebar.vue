@@ -97,10 +97,14 @@
             </li>
 
             <li class="nav-item">
-              <NuxtLink to="/docs/tables" class="nav-link"> Tables</NuxtLink>
+              <NuxtLink to="/docs/components/tables" class="nav-link">
+                Tables</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/spinner" class="nav-link"> Spinner</NuxtLink>
+              <NuxtLink to="/docs/components/spinner" class="nav-link">
+                Spinner</NuxtLink
+              >
             </li>
           </ul>
         </div>
