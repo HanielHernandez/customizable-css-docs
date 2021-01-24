@@ -13,8 +13,12 @@
           well as Components
         </p>
         <div class="row justify-center">
-          <button class="btn btn-primary btn-size-4 ">Get started</button>
-          <button class="btn btn-primary-outline btn-size-4 ">Download</button>
+          <nuxt-link to="/docs" class="btn btn-primary btn-size-4 ">
+            Get started</nuxt-link
+          >
+          <nuxt-link to="/docs" class="btn btn-primary-outline btn-size-4">
+            Download</nuxt-link
+          >
         </div>
       </div>
     </div>
@@ -22,7 +26,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  header: {
+    title: ""
+  }
+};
 </script>
 
 <style></style>

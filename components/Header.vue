@@ -1,5 +1,5 @@
 <template lang="html">
   <div class="navbar fixed navbar-collapse-md navbar-white">
-    <a class="brand">Brand</a>
+    <nuxt-link to="/" class="brand"> Customizable CSS</nuxt-link>
   </div>
 </template>
