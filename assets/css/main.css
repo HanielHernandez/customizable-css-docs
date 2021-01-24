@@ -964,12 +964,6 @@ ul.nav {
   color: #2196f3;
 }
 
-.nav.nav-horizontal, .nav.breadcrumbs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .nav-item, .nav-link {
   line-height: 1.5;
 }
@@ -1001,6 +995,13 @@ ul.nav {
   padding-left: 0.5rem;
   color: #6c757d;
   content: "/";
+}
+
+.horizontal,
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navbar {

@@ -4,9 +4,7 @@
     <h4>
       Cards
     </h4>
-    <p>
-      youn can create cards by using the .card class
-    </p>
+    <p>youn can create cards by using the <b>.card</b> class</p>
     <pre><code lang="html"><span class="tag">&lt;div</span> <span class="prop">class=</span><span class="val">"card"</span><span class="tag">&gt;</span>
     <span class="tag">&lt;div</span> <span class="prop">class=</span><span class="val">"card-head"</span><span class="tag">&gt;</span>
         <span class="tag">&lt;img</span> <span class="prop">class=</span><span class="val">"card-avatar "</span><span class="tag">/&gt;</span>

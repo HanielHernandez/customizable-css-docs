@@ -15,12 +15,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel:'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
+      { rel:'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'},
+
     ],
     script:[
-      {
-         src:'https://cdn.jsdelivr.net/npm/customizable-css@1.1.1/js/main.min.js'
-      }
+      {  src:'/js/main.js'}
+
     ]
   },
 

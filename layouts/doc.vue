@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <Header />
-    <div class="container container-xxl pt-14">
+    <div class="container container-xxl " style="padding-top: 58px">
       <div class="row">
         <Sidebar />
         <div class="col w-12 p-4">
