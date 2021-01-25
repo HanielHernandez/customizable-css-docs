@@ -20,8 +20,9 @@ export default {
 
     ],
     script:[
-      {
-        src:'/js/main.min.js'
+      { 
+        type:'text/javascript',
+        src:"https://cdn.jsdelivr.net/npm/customizable-css@1.1.2/js/main.js"
       }
     ]
   },
