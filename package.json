@@ -14,12 +14,20 @@
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "@nuxtjs/markdownit": "^2.0.0",
+    "algoliasearch": "^4.8.4",
     "core-js": "^3.8.2",
+    "highlight.js": "^10.5.0",
+    "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
+    "remove-markdown": "^0.3.0",
+    "vue-instantsearch": "^3.4.3",
     "vue-server-renderer": "^2.6.0"
   },
   "devDependencies": {
     "@akryum/vue-cli-plugin-ssr": "~0.6.0",
-    "@vue/cli-plugin-router": "^4.5.11"
+    "@vue/cli-plugin-router": "^4.5.11",
+    "fibers": "^5.0.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1"
   }
 }

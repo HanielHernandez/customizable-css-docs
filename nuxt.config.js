@@ -16,6 +16,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel:'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'},
+      { rel:'stylesheet', href:'https://myCDN.com/prism@v1.x/themes/prism.css'},
 
     ],
     script:[
@@ -31,6 +32,9 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {
+      src:    '~/plugins/vue-instantsearch'      ,ssr: false
+    }
   ], 
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -46,8 +50,30 @@ export default {
     '@nuxt/content'
 
   ],
-
+  // Nuxt content algolia
+  nuxtContentAlgolia:{
+    appId: process.env.ALLGOLLIA_APP_ID,
+    apiKey: process.env.ALLGOLLIA_API_KEY,
+    paths:[
+      {
+        name:'documentation',
+        index:'docs',
+        field:['title','description','bodyPlainText']
+      }
+    ]
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile:['vue-isntantsearch','instantsearch.js/es']
+  },
+  hooks:{
+    'content:file:beforeInsert':(document)=>
+    {
+      const removeMd = require('remove-markdown');
+      if(document.extension === 'md'){
+        document.bodyPlainText = removeMd(document.text)
+      }
+    
+    }
   }
 }

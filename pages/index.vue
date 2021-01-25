@@ -33,4 +33,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.hljs {
+  &-tag {
+    color: lightblue;
+  }
+}
+</style>

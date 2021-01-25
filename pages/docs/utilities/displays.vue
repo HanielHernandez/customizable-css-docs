@@ -1,13 +1,16 @@
 <template>
   <div>
-    <NuxtContent :document="doc" />
+    <div v-html="displays"></div>
   </div>
 </template>
 <script>
+import displays from "../../../content/displays.md";
 export default {
-  async asyncData({ $content, params }) {
-    const doc = await $content(params.slug || "displays");
-    return { doc };
+  layout: "doc",
+  computed: {
+    displays() {
+      return displays;
+    }
   }
 };
 </script>
