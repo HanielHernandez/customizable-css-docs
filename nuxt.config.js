@@ -24,8 +24,8 @@ export default {
 
     ],
     script:[
-      {  src:'/js/main.js'},
-      {  src:'/js/docs.js'}
+      {  src:'/customizable-css/js/main.js'},
+      {  src:'/customizable-css/js/docs.js'}
 
     ]
   },
