@@ -14,21 +14,16 @@ npm i customizable-css
 
 ##### Import
 
-then you can import the main sass file
+If you want customize some variables you can then import the main sass file
 
 ```sass
 @import "~customizable-css/css/main.scss";
 ```
 
-##### Clone
-
-```bash
-git clone https://github.com/HanielHernandez/custom-css.git
-```
 
 ##### CDN
 
-you can also use this **CDN**
+You can also use this **CDN**
 
 ```html
 <!-- CSS -->
@@ -36,4 +31,13 @@ you can also use this **CDN**
 />
 <!-- Optional Javascript for Components -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/customizable-css@1.1.2/js/main.js"></script>
+```
+
+
+##### Clone
+
+Or you can clone the entire repo
+
+```bash
+git clone https://github.com/HanielHernandez/custom-css.git
 ```
