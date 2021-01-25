@@ -16,11 +16,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel:'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'},
       { rel:'stylesheet', href:'https://myCDN.com/prism@v1.x/themes/prism.css'},
+      { rel:'stylesheet', href:'https://myCDN.com/prism@v1.x/themes/prism.css'},
 
     ],
     script:[
-      { type:'text/javascript', 
-        src:'/js/main.min.js'},
+      {
+        src:'/js/main.min.js'
+      }
     ]
   },
 
@@ -37,6 +39,7 @@ export default {
     {
       src:    '~/plugins/vue-instantsearch'      ,ssr: true
     }
+
   ], 
 
   // Auto import components: https://go.nuxtjs.dev/config-components

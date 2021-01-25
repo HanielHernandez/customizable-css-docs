@@ -183,7 +183,11 @@
       </li>
     </ul>
 
-    <button class="btn expand-btn bg-white" id="expandTrigger">
+    <button
+      class="btn expand-btn sidebar-toggler bg-white"
+      data-target="sidebarContainer"
+      id="expandTrigger"
+    >
       <span class="material-icons"> chevron_right</span>
     </button>
   </div>
