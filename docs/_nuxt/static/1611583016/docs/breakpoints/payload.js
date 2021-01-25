@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/docs/breakpoints", {data:[{}],fetch:[],mutations:void 0});
