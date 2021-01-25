@@ -9,7 +9,7 @@
         menu
       </i>
     </button>
-    <input type="text" class="form-input " style="width:150px" />
+    <!--input type="text" class="form-input " style="width:150px" /-->
     <div class="nav-menu justify-end hidden" id="navbar_navigation">
       <ul class="nav">
         <li class="nav-item">
