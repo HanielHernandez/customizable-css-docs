@@ -20,7 +20,8 @@ export default {
 
     ],
     script:[
-      {  src:'/js/main.js'}
+      {  src:'/js/main.js'},
+      {  src:'/js/docs.js'}
 
     ]
   },
