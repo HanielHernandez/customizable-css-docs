@@ -1,15 +1,19 @@
 <template>
   <div>
-    <div v-html="displays"></div>
+    <nuxt-content :document="displays"></nuxt-content>
   </div>
 </template>
 <script>
-import displays from "../../../content/displays.md";
+//import displays from "../../../content/displays.md";
 export default {
   layout: "doc",
+  async asyncData({ $content }) {
+    const displays = await $content("displays").fetch();
+    return { displays };
+  },
   computed: {
-    displays() {
-      return displays;
+    test() {
+      return "displays";
     }
   }
 };

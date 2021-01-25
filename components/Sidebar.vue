@@ -129,7 +129,7 @@
                 >Displays</NuxtLink
               >
             </li>
-            <!--
+
             <li class="nav-item">
               <NuxtLink to="/docs/utilities/flex_box" class="nav-link"
                 >Flex box</NuxtLink
@@ -176,7 +176,7 @@
                 class="nav-link"
                 >Transitions and Hover</NuxtLink
               >
-            </li> -->
+            </li>
           </ul>
         </div>
       </li>
