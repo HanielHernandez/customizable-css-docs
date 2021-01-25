@@ -4,7 +4,7 @@ This is customizable css official documentation, It will be updated as new versi
 
 #### Installation
 
-You can install the official package with NPM 
+You can install the package with **NPM**
 
 ##### NPM
 
@@ -28,15 +28,12 @@ git clone https://github.com/HanielHernandez/custom-css.git
 
 ##### CDN
 
+you can also use this **CDN**
+
 ```html
 <!-- CSS -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/customizable-css@1.1.1/css/main.min.css"
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/customizable-css@1.1.2/css/main.min.css"
 />
 <!-- Optional Javascript for Components -->
-<script
-  type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/customizable-css@1.1.2/js/main.js"
-></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/customizable-css@1.1.2/js/main.js"></script>
 ```
