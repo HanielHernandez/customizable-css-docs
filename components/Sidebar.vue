@@ -120,43 +120,59 @@
         <div class="expandible" id="utilitiesMenu">
           <ul class="nav">
             <li class="nav-item">
-              <NuxtLink to="/docs/colors" class="nav-link">Colors</NuxtLink>
+              <NuxtLink to="/docs/utilities/colors" class="nav-link"
+                >Colors</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/displays" class="nav-link">Displays</NuxtLink>
+              <NuxtLink to="/docs/utilities/displays" class="nav-link"
+                >Displays</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/flex_box" class="nav-link">Flex box</NuxtLink>
+              <NuxtLink to="/docs/utilities/flex_box" class="nav-link"
+                >Flex box</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/position" class="nav-link">Position</NuxtLink>
+              <NuxtLink to="/docs/utilities/position" class="nav-link"
+                >Position</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/overflows" class="nav-link">
+              <NuxtLink to="/docs/utilities/overflows" class="nav-link">
                 Overflow</NuxtLink
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/padding_and_margin" class="nav-link"
+              <NuxtLink to="/docs/utilities/padding_and_margin" class="nav-link"
                 >Padding and Margin</NuxtLink
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/opacity" class="nav-link">Opacity</NuxtLink>
+              <NuxtLink to="/docs/utilities/opacity" class="nav-link"
+                >Opacity</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/z_index" class="nav-link">Z-index</NuxtLink>
+              <NuxtLink to="//docs/utilities/z_index" class="nav-link"
+                >Z-index</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/shadows" class="nav-link">Shadows</NuxtLink>
+              <NuxtLink to="/docs/utilities/shadows" class="nav-link"
+                >Shadows</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/text" class="nav-link"
+              <NuxtLink to="/docs/utilities/text" class="nav-link"
                 >Fonts and text</NuxtLink
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/transitions_and_hover" class="nav-link"
+              <NuxtLink
+                to="/docs/utilities/transitions_and_hover"
+                class="nav-link"
                 >Transitions and Hover</NuxtLink
               >
             </li>

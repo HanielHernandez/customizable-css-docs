@@ -113,6 +113,10 @@
 <script lang="">
 export default {
   layout: "doc",
+  transition: {
+    name: "page",
+    mode: "out-in"
+  },
   head() {
     return {
       title: "Customizable Css - Cards",
