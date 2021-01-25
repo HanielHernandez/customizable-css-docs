@@ -1,8 +1,5 @@
 document.addEventListener("click", function ($event) {
-
     const parent =  $event.target.parentNode;   
-    console.log(parent.id);
-
     if($event.target.id == 'expandTrigger'){
         expandSidebar()
     }else{
@@ -15,7 +12,7 @@ document.addEventListener("click", function ($event) {
     if ($event.target.classList.contains("nav-toggler")) {
             expandNavbar($event.target);
     }else{
-        if(parent & parent.classList && parent.classList.contains('nav-toggler')) {
+        if(parent.classList.contains('nav-toggler')) {
             expandNavbar(parent);
         }
     }
