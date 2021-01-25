@@ -1,21 +1,15 @@
-<template lang="html">
+<template>
   <div>
-    <div>
-      <h3>
-        Customizable CSS Docs
-      </h3>
-      <p>
-        This is the official documentation for customizable css framework
-      </p>
-    </div>
+    <nuxt-content :document="docs"></nuxt-content>
   </div>
 </template>
 <script>
-import Sidebar from "../../components/Sidebar";
+//import displays from "../../../content/displays.md";
 export default {
   layout: "doc",
-  components: {
-    Sidebar
+  async asyncData({ $content }) {
+    const docs = await $content("docs").fetch();
+    return { docs };
   }
 };
 </script>

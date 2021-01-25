@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div v-html="about"></div>
+    <nuxt-content :document="about"></nuxt-content>
   </div>
 </template>
 <script>
-import about from "../content/about.md";
+//import displays from "../../../content/displays.md";
 export default {
-  computed: {
-    about() {
-      return about;
-    }
+  layout: "doc",
+  async asyncData({ $content }) {
+    const about = await $content("about").fetch();
+    return { about };
   }
 };
 </script>
