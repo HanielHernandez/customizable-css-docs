@@ -1,11 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router:{
-    base:'/customizable-css-docs/'
-  },
-
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'customizable-css-docs',
@@ -24,9 +19,8 @@ export default {
 
     ],
     script:[
-      {  src:'/customizable-css/js/main.js'},
-      {  src:'/customizable-css/js/docs.js'}
-
+      { type:'text/javascript', 
+        src:'/js/main.min.js'},
     ]
   },
 
