@@ -31,13 +31,7 @@ export default {
   },
 
   router: {
-    parseQuery(queryString) {
-      return require('qs').parse(queryString);
-    },
-    stringifyQuery(object) {
-      var queryString = require('qs').stringify(object);
-      return queryString ? '?' + queryString : '';
-    },
+    base:'/customizable-css-docs/'
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
