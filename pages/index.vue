@@ -16,8 +16,11 @@
           <nuxt-link to="/docs" class="btn btn-primary btn-size-4 ">
             Get started</nuxt-link
           >
-          <nuxt-link to="/docs" class="btn btn-primary-outline btn-size-4">
-            Download</nuxt-link
+          <a
+            href="https://www.npmjs.com/package/customizable-css"
+            class="btn btn-primary-outline btn-size-4"
+          >
+            Installatio</a
           >
         </div>
       </div>
