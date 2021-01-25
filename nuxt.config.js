@@ -25,6 +25,15 @@ export default {
     ]
   },
 
+  router: {
+    parseQuery(queryString) {
+      return require('qs').parse(queryString);
+    },
+    stringifyQuery(object) {
+      var queryString = require('qs').stringify(object);
+      return queryString ? '?' + queryString : '';
+    },
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main'
@@ -33,7 +42,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {
-      src:    '~/plugins/vue-instantsearch'      ,ssr: false
+      src:    '~/plugins/vue-instantsearch'      ,ssr: true
     }
   ], 
 
@@ -50,21 +59,10 @@ export default {
     '@nuxt/content'
 
   ],
-  // Nuxt content algolia
-  nuxtContentAlgolia:{
-    appId: process.env.ALLGOLLIA_APP_ID,
-    apiKey: process.env.ALLGOLLIA_API_KEY,
-    paths:[
-      {
-        name:'documentation',
-        index:'docs',
-        field:['title','description','bodyPlainText']
-      }
-    ]
-  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile:['vue-isntantsearch','instantsearch.js/es']
+    transpile: ['vue-instantsearch', 'instantsearch.js/es']
   },
   hooks:{
     'content:file:beforeInsert':(document)=>
