@@ -17,6 +17,7 @@
     "@nuxtjs/markdownit": "^2.0.0",
     "algoliasearch": "^4.8.4",
     "core-js": "^3.8.2",
+    "customizable-css": "^1.1.2",
     "highlight.js": "^10.5.0",
     "instantsearch.css": "^7.4.5",
     "node-sass": "^5.0.0",

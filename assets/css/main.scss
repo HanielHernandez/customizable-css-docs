@@ -1,0 +1,14 @@
+@import "../../node_modules/customizable-css/css/globals/_variables.scss";
+
+@import "../../node_modules/customizable-css/css/main.scss";
+
+/*@each $color-name, $variants in $colors {
+  @each $variant-name, $variant-color in $variants {
+    @if ($variant-name != 600) {
+      @include create-background-for-theme(
+        #{$color-name}-#{$variant-name},
+        $variant-color
+      );
+    }
+  }
+}*/

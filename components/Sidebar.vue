@@ -140,7 +140,7 @@
                 >Position</NuxtLink
               >
             </li>
-            <!--
+
             <li class="nav-item">
               <NuxtLink to="/docs/utilities/overflows" class="nav-link">
                 Overflow</NuxtLink
@@ -177,7 +177,7 @@
                 class="nav-link"
                 >Transitions and Hover</NuxtLink
               >
-            </li>-->
+            </li>
           </ul>
         </div>
       </li>
