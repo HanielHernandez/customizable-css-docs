@@ -1,11 +1,11 @@
 <template>
   <div class="row mb-4">
     <div
-      class="col py-4 col-w-12 col-md-4 col-w-lg-4 col-w-md-3"
+      class="col col-w-12 col-md-4 col-w-lg-4 col-w-md-3"
       v-for="color in colors"
       :key="color.name"
     >
-      <p class="bold">{{ color.name }}</p>
+      <p class="bold p-4 mb-0">{{ color.name }}</p>
 
       <div
         class="p-4 row justify-start align-center"
@@ -18,7 +18,7 @@
       >
         <p class="mb-0 mr-4">
           {{ color.name + "-" + variant.name }}:
-          <span class="bold">{{ variant.variant }}</span>
+          <span class="font-medium">{{ variant.variant }}</span>
         </p>
       </div>
     </div>
@@ -1217,6 +1217,7 @@ export default {
           "300",
           "400",
           "500",
+          "a100",
           "a200",
           "a400",
           "a700",
