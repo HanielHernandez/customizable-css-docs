@@ -33,9 +33,12 @@ In order to make the main css file lighter default colors themes are not created
 color theme by
 
 ```scss
-$color-variants: map-get($colors,'red'); // gets and array of the variants of the color red
-$variant: map-get($color-variants,500); //  gets variant 500 
-@include  create-theme('red-500',$variant); //Creates an entire theme (background,text, borders etc) base on a color
+// Get the color variant 
+$color: get-color('red',600);
+//create your entire theme base on a color
+@include  create-theme('red-500',$color); // creates border, background, text color, hovers navbar color
+// create only those features you need
+@include create-background-for-theme('red-500',$color) //  creates only bg-red-500 class for background
 ```
 
 this is the offical list of the colors suported:
