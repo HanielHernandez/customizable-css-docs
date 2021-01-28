@@ -32,8 +32,8 @@ export default {
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    {  src :  'customizable-css',    lang:'sass'},
-    '~/assets/css/main'
+    '~/assets/css/main.css',
+    '~/assets/css/docs.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

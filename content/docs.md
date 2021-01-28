@@ -8,7 +8,7 @@ You can install the package with **NPM**
 
 ### NPM
 
-```bash
+```bash 
 npm i customizable-css
 ```
 
