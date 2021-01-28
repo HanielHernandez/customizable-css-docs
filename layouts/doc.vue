@@ -1,5 +1,5 @@
 <template lang="html">
-  <div style="padding-top: 58px">
+  <div style="padding-top: 58px;scroll-behavior: smooth;">
     <Header />
     <div class="container container-xxl " >
       <div class="row " >

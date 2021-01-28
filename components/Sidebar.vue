@@ -16,7 +16,7 @@
         <div class="expandible " id="gridsMenu">
           <ul class="nav pl-4">
             <li class="nav-item">
-              <NuxtLink to="/docs/grid" class="nav-link">Grid</NuxtLink>
+              <NuxtLink to="/docs/layout/grid" class="nav-link">Grid</NuxtLink>
             </li>
             <li class="nav-tem">
               <NuxtLink to="/docs/breakpoints" class="nav-link"

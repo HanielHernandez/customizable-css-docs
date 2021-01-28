@@ -5,7 +5,7 @@
         </p>
         <ul class="nav" v-if="toc && toc.length > 0" >
             <li class="nav-item" v-for="link in toc" :key="link.id" >
-                <NuxtLink class="pt-2" :to="'#'+link.id">{{link.text  }}</NuxtLink>
+                <NuxtLink class="pt-2" :class="{'pl-4':link.depth == 3}" :to="'#'+link.id">{{link.text  }}</NuxtLink>
             </li>
         </ul>
     </div>
