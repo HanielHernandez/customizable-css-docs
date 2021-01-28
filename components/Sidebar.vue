@@ -19,7 +19,7 @@
               <NuxtLink to="/docs/layout/grid" class="nav-link">Grid</NuxtLink>
             </li>
             <li class="nav-tem">
-              <NuxtLink to="/docs/breakpoints" class="nav-link"
+              <NuxtLink to="/docs/layout/breakpoints" class="nav-link"
                 >Breakpoints</NuxtLink
               >
             </li>
@@ -37,7 +37,7 @@
         <div id="formsMenu" class="expandible">
           <ul class="nav">
             <li class="nav-item">
-              <NuxtLink to="/docs/form_field" class="nav-link">
+              <NuxtLink to="/docs/forms/form_field" class="nav-link">
                 Form field</NuxtLink
               >
             </li>
