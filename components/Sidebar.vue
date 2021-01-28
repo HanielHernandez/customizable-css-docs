@@ -82,8 +82,8 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="/docs/components/navs" class="nav-link"
-                >Navs</NuxtLink
+              <NuxtLink to="/docs/components/navs_and_tabs" class="nav-link"
+                >Navs and Tabs</NuxtLink
               >
             </li>
             <li class="nav-item">

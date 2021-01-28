@@ -1,6 +1,6 @@
 ---
 title: "Breakpoints"
-description: "Lean how to use Customizable CSS Breakpoints"
+description: "Learn how to use Customizable CSS Breakpoints"
 tags:
   - breakpoints
 ---

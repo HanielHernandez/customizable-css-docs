@@ -1,4 +1,10 @@
-
+---
+title: 'Modals'
+description: 'Learn how to use Customizable CSS Modals'
+tags:
+- modals
+- alerts
+---
 
 # Modals
 

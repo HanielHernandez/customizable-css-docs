@@ -1,6 +1,6 @@
 ---
 title: Forms field
-description: Lean how to use Customizable CSS Form field
+description: Learn how to use Customizable CSS Form field
 tags:
   - forms
   - form field

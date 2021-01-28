@@ -1,3 +1,11 @@
+---
+title: 'Cards'
+description: 'Learn how to use Customizable CSS Cards'
+tags:
+- cards
+- card image
+---
+
 # Cards
 
 ## Simple card

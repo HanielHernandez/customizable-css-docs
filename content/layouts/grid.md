@@ -1,6 +1,6 @@
 ---
 title: 'Grid'
-description: 'Lean how to use Customizable CSS grid'
+description: 'Learn how to use Customizable CSS grid'
 tags:
 - rows
 - columns

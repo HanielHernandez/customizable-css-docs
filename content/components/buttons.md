@@ -1,6 +1,6 @@
 ---
 title: 'Buttons'
-description: 'Lean how to use Customizable CSS Buttons'
+description: 'Learn how to use Customizable CSS Buttons'
 tags:
 - button
 - buttons
@@ -17,16 +17,16 @@ the class **.btn** can be use to create a simple button, you can change the colo
 
 ```html
 <button class="btn">
-    Default button
+    Default 
 </button>
 <button class="btn btn-primary">
-    Primary button
+    Primary 
 </button>
 <button class="btn btn-primary-outline">
-    Primary Outline button
+    Primary Outline 
 </button>
 <button class="btn btn-primary-flat"x>
-  Primary  Flat button
+  Flat 
 </button>
 <button clas="btn btn-icon"> <span class="material-icons">add</span><button>
 ```
