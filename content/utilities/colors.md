@@ -1,3 +1,8 @@
+---
+title: Colors
+description: Learn how to use Customizable CSS Colorsclasses.
+---
+
 # Colors
 
 you change background color property of a div by using the classes **.bg-{theme name /color}**.

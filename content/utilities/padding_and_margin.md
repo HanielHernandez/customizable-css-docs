@@ -1,3 +1,8 @@
+---
+title: Padding and Margin
+description: Learn how to use Customizable CSS Padding and Margin classes.
+---
+
 # Padding and Margin
 
 You can set padding and margin by using the class **.p-{number from 1 to 24}** or **m-{number from 1 to 24}** , youn can also use modifers like **b** for botom or, **t** for top, **r** for right and **l** for left in order to spiciy the side of the div to add padding

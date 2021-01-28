@@ -1,3 +1,7 @@
+---
+title: Opacity
+description: Learn how to use Customizable CSS Opacity classes.
+---
 # Opacity
 
 You can set opacity by using the class **opacity-{0 or multiple of 5}**

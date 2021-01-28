@@ -1,3 +1,7 @@
+---
+title: Sahdows
+description: Learn how to use customizable Shadows classes.
+---
 # Shadows 
 
 You can use shadows by adding the class **.shadow**
