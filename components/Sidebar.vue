@@ -43,7 +43,7 @@
             </li>
             <li class="nav-item">
               <NuxtLink
-                to="/docs/form_field#form_field_with_addons"
+                to="/docs/forms/form_field#form_field_with_addons"
                 class="nav-link"
                 >Foorm field with addon</NuxtLink
               >

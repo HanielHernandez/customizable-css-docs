@@ -15,6 +15,7 @@
 import Sidebar from "../components/Sidebar";
 
 export default {
+  layout:'doc',
   components: {
     Sidebar
   }
