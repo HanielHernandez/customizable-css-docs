@@ -1,18 +1,18 @@
-## Customizable CSS docs
+# Customizable CSS docs
 
 This is customizable css official documentation, It will be updated as new version are realesed
 
-#### Installation
+## Installation
 
 You can install the package with **NPM**
 
-##### NPM
+### NPM
 
 ```bash
 npm i customizable-css
 ```
 
-##### Import
+### Import
 
 If you want customize some variables you can then import the main sass file
 
@@ -21,7 +21,7 @@ If you want customize some variables you can then import the main sass file
 ```
 
 
-##### CDN
+### CDN
 
 You can also use this **CDN**
 
@@ -34,7 +34,7 @@ You can also use this **CDN**
 ```
 
 
-##### Clone
+### Clone
 
 Or you can clone the entire repo
 

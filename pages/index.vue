@@ -42,4 +42,16 @@ export default {
     color: lightblue;
   }
 }
+h2::before,h1::before,h3::before{
+display: block;
+    content: " ";
+    margin-top: -85px;
+    height: 85px;
+    visibility: hidden;
+    pointer-events: none;
+}
+pre{
+
+  margin-bottom: 4;
+}
 </style>

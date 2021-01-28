@@ -3,7 +3,7 @@ title: Display
 description: Learn how to use Customizable CSS Display classes.
 ---
 
-### Displays
+# Displays
 
 you can change the display property of an element by using the following class
 

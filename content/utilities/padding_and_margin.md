@@ -81,7 +81,6 @@ You can set padding and margin by using the class **.p-{number from 1 to 24}** o
 </div>
 ```
 
-
 <div class="b p-2 mb-4">
   im a div with <b>.p-2 </b> class
 </div>

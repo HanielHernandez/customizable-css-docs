@@ -1,10 +1,10 @@
 <template lang="html">
-  <div>
+  <div style="padding-top: 58px">
     <Header />
-    <div class="container container-xxl " style="padding-top: 58px">
-      <div class="row">
+    <div class="container container-xxl " >
+      <div class="row " >
         <Sidebar />
-        <div class="col w-12 w-lg-9/12">
+        <div class="col w-12 w-lg-9/12 px-4">
           <NuxtChild />
         </div>
       </div>

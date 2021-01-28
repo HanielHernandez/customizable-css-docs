@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="navbar fixed z-20 navbar-collapse-md navbar-white">
+  <div class="navbar fixed z-20 navbar-collapse-md navbar-white" style="top:0; right:0;">
     <nuxt-link to="/" class="brand"> Customizable CSS</nuxt-link>
     <button class="btn nav-toggler b-0" data-target="navbar_navigation">
       <i

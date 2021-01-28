@@ -1,6 +1,6 @@
 <template>
   <div class="row flex-wrap-reverse">
-    <div class="w-12/12 w-md-8/12 px-4">
+    <div class="w-12/12 w-md-8/12 py-4 pr-4">
     <nuxt-content :document="utility" />
       <template v-if="slug == 'colors'">
       <colorlist />
@@ -14,6 +14,7 @@
   </div>
 </template>
 <script>
+import Prism from '~/plugins/prism';
 import RightBar from '../../../components/RightBar';
 import colorlist from "../../../components/colorslist";
 export default {
@@ -24,6 +25,9 @@ export default {
   },
   data: () => {
     return {};
+  },
+  mounted(){
+    Prism.highlightAll()
   },
   async asyncData({ $content, params }) {
     const utility = await $content("utilities", params.slug).fetch();

@@ -22,6 +22,7 @@
     "instantsearch.css": "^7.4.5",
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
+    "prism-themes": "^1.5.0",
     "remove-markdown": "^0.3.0",
     "vue-instantsearch": "^3.4.3",
     "vue-server-renderer": "^2.6.0"
