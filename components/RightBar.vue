@@ -1,20 +1,20 @@
 <template lang="html">
-    <div>
-        <ul class="nav" v-if="links.length > 0">
-            <li class="nav-item" v-for="link in links" :key="link.link">
-                <a :href="link.link" class="nav-link">{{link.text}}</a>
+    <div class="px-4">
+        <p class="font-medium px-4:">
+            In this page
+        </p>
+        <ul class="nav" v-if="toc && toc.length > 0" >
+            <li v-for="link in toc" :key="link.id" >
+                <NuxtLink :to="'#'+link.id">{{link.text  }}</NuxtLink>
             </li>
         </ul>
     </div>
 </template>
 <script>
 export default {
-    name:'RigthNav',
-    props:{
-        links:Array
-    }
-}
+  name: "RigthNav",
+  props: ["toc"],
+};
 </script>
 <style lang="scss">
-  
 </style>

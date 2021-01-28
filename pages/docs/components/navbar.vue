@@ -1,6 +1,5 @@
 <template>
   <div>
-      <div class="row align-items-start wrap">
         <div style="width:calc(100% - 240px);">
 
          
@@ -196,10 +195,7 @@
                     Lastly you can set the position of a navbar to the top always by adding the class <b>.fixed</b> or <b>.sticky</b>, remember to add padding to the elements bellow otherwise the navbar elements will overlap
                 </p>
         </div>
-        <div class="sticky b bt-0 bb-0 br-0 bl" style="top:4.9rem; height:auto; width:240px; maxheight:" >
-              <right-bar :links="[{text:'#navbar',text:'Navbar'}]" />
-        </div>
-      </div>
+      
   </div>
 </template>
 <script>

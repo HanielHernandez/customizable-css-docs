@@ -1,17 +1,26 @@
 <template>
-  <div>
+  <div class="row flex-wrap-reverse">
+    <div class="w-12/12 w-md-8/12 px-4">
     <nuxt-content :document="utility" />
-    <template v-if="slug == 'colors'">
+      <template v-if="slug == 'colors'">
       <colorlist />
     </template>
+    </div>
+    <div v-if="utility" class="w-12/12 w-md-4/12 position-relative display-block br b by-0 br-0 ">
+        <div class="sticky " style=" top:4.5625rem;">
+            <right-bar :toc="utility.toc"></right-bar>
+        </div>
+    </div>
   </div>
 </template>
 <script>
+import RightBar from '../../../components/RightBar';
 import colorlist from "../../../components/colorslist";
 export default {
   layout: "doc",
   components: {
-    colorlist
+    colorlist,
+    RightBar
   },
   data: () => {
     return {};

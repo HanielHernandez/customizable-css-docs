@@ -3,12 +3,28 @@ title: Colors
 description: Learn how to use Customizable CSS Colorsclasses.
 ---
 
-# Colors
+## Colors
+
+
 
 you change background color property of a div by using the classes **.bg-{theme name /color}**.
 
+```html
 <div class="row mb-4">
-                        <div class="inline-block p-12 bg-dark w-1/2 w-md-12/12">
+                        <div class=" p-12 bg-dark w-1/2 w-md-12/12">
+                            <p class="">
+                                div with <b>.bg-dark</b>
+                            </p>
+                        </div>
+                        <div class="inline-block p-12 bg-primary w-1/2 w-md-12/12">
+                            <p class="">
+                                div with <b>.bg-primary</b>
+                            </p>
+                        </div>
+```
+
+<div class="row my-4">
+                        <div class=" p-12 bg-dark w-1/2 w-md-12/12">
                             <p class="">
                                 div with <b>.bg-dark</b>
                             </p>
@@ -42,8 +58,6 @@ color theme by
 $color: get-color('red',600);
 //create your entire theme base on a color
 @include  create-theme('red-500',$color); // creates border, background, text color, hovers navbar color
-// create only those features you need
-@include create-background-for-theme('red-500',$color) //  creates only bg-red-500 class for background
 ```
 
 this is the offical list of the colors suported:

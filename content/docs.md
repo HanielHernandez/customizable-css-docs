@@ -38,6 +38,6 @@ You can also use this **CDN**
 
 Or you can clone the entire repo
 
-```bash
+``` bash
 git clone https://github.com/HanielHernandez/custom-css.git
 ```

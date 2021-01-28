@@ -1,7 +1,8 @@
 <template lang="html">
   <div
     id="sidebarContainer"
-    class="col p-2 z-10 col-w-lg-3 b-r b-grey-100 sidebar sidebar-collapse-lg bg-white"
+    class="col p-2 z-10 col-w-lg-3  sidebar sidebar-collapse-lg bg-white"
+    style="border-right:1px solid rgba(0,0,0,0.12);"
   >
     <ul class="nav overflow-y-auto" style="max-height: 100%;">
       <li class="nav-item">

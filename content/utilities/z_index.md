@@ -1,3 +1,7 @@
+---
+title: Z-Index
+description: Learn how to use Customizable CSS Colors classes.
+---
 # Z-Index
 
 you can change the z-index of a div by using the class **.z-{5-120}** .

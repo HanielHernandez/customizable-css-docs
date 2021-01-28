@@ -4,7 +4,7 @@
     <div class="container container-xxl " style="padding-top: 58px">
       <div class="row">
         <Sidebar />
-        <div class="col w-12 p-4">
+        <div class="col w-12 w-lg-9/12">
           <NuxtChild />
         </div>
       </div>
