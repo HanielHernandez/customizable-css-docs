@@ -5,9 +5,9 @@
     </div>
     <div
       v-if="document"
-      class="w-12/12 w-md-4/12 w-lg-3/12 w-xl-1/5 position-relative display-block br b by-0 br-0"
+      class="w-12/12 w-md-4/12 w-lg-3/12 w-xl-1/5 position-relative display-block "
     >
-      <div class="sticky" style="top: 4.5625rem">
+      <div class="sticky" style="top: calc(4.5rem + 2px);">
         <right-bar :toc="document.toc"></right-bar>
       </div>
     </div>

@@ -6727,6 +6727,26 @@ span.material-icons {
     width: 100%;
     max-width: 100%;
   }
+  .w-sm-1\/5 {
+    width: 20%;
+    max-width: 20%;
+  }
+  .w-sm-2\/5 {
+    width: 40%;
+    max-width: 40%;
+  }
+  .w-sm-3\/5 {
+    width: 60%;
+    max-width: 60%;
+  }
+  .w-sm-4\/5 {
+    width: 80%;
+    max-width: 80%;
+  }
+  .w-sm-5\/5 {
+    width: 100%;
+    max-width: 100%;
+  }
   .w-sm-1\/4 {
     width: 25%;
     max-width: 25%;
@@ -8329,6 +8349,26 @@ span.material-icons {
     max-width: 83.33333%;
   }
   .w-md-6\/6 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .w-md-1\/5 {
+    width: 20%;
+    max-width: 20%;
+  }
+  .w-md-2\/5 {
+    width: 40%;
+    max-width: 40%;
+  }
+  .w-md-3\/5 {
+    width: 60%;
+    max-width: 60%;
+  }
+  .w-md-4\/5 {
+    width: 80%;
+    max-width: 80%;
+  }
+  .w-md-5\/5 {
     width: 100%;
     max-width: 100%;
   }
@@ -9937,6 +9977,26 @@ span.material-icons {
     width: 100%;
     max-width: 100%;
   }
+  .w-lg-1\/5 {
+    width: 20%;
+    max-width: 20%;
+  }
+  .w-lg-2\/5 {
+    width: 40%;
+    max-width: 40%;
+  }
+  .w-lg-3\/5 {
+    width: 60%;
+    max-width: 60%;
+  }
+  .w-lg-4\/5 {
+    width: 80%;
+    max-width: 80%;
+  }
+  .w-lg-5\/5 {
+    width: 100%;
+    max-width: 100%;
+  }
   .w-lg-1\/4 {
     width: 25%;
     max-width: 25%;
@@ -11542,6 +11602,26 @@ span.material-icons {
     width: 100%;
     max-width: 100%;
   }
+  .w-xl-1\/5 {
+    width: 20%;
+    max-width: 20%;
+  }
+  .w-xl-2\/5 {
+    width: 40%;
+    max-width: 40%;
+  }
+  .w-xl-3\/5 {
+    width: 60%;
+    max-width: 60%;
+  }
+  .w-xl-4\/5 {
+    width: 80%;
+    max-width: 80%;
+  }
+  .w-xl-5\/5 {
+    width: 100%;
+    max-width: 100%;
+  }
   .w-xl-1\/4 {
     width: 25%;
     max-width: 25%;
@@ -13144,6 +13224,26 @@ span.material-icons {
     max-width: 83.33333%;
   }
   .w-xxl-6\/6 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .w-xxl-1\/5 {
+    width: 20%;
+    max-width: 20%;
+  }
+  .w-xxl-2\/5 {
+    width: 40%;
+    max-width: 40%;
+  }
+  .w-xxl-3\/5 {
+    width: 60%;
+    max-width: 60%;
+  }
+  .w-xxl-4\/5 {
+    width: 80%;
+    max-width: 80%;
+  }
+  .w-xxl-5\/5 {
     width: 100%;
     max-width: 100%;
   }

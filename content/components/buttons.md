@@ -17,35 +17,38 @@ the class **.btn** can be use to create a simple button, you can change the colo
 
 ```html
 <button class="btn">
-    Default 
+   Default 
 </button>
 <button class="btn btn-primary">
-    Primary 
+   Primary 
 </button>
 <button class="btn btn-primary-outline">
-    Primary Outline 
+   Primary Outline 
 </button>
 <button class="btn btn-primary-flat"x>
-  Flat 
+   Flat 
 </button>
-<button clas="btn btn-icon"> <span class="material-icons">add</span><button>
+<button clas="btn btn-icon">
+   <span class="material-icons">add</span>
+<button>
 ```
 
 <div class="row my-4">
-  <button class="btn mb-4">
+   <button class="btn mb-4">
       Default button
-  </button>
-  <button class="btn mb-4 btn-primary">
+   </button>
+   <button class="btn mb-4 btn-primary">
       Primary button
-  </button>
-  <button class="btn mb-4 btn-primary-outline">
+   </button>
+   <button class="btn mb-4 btn-primary-outline">
       Primary Outline button
-  </button>
-  <button class="btn mb-4 btn-primary-flat">
-     Flat button
-  </button>
-  <button class="btn mb-4 btn-icon">
-  <span class="material-icons">add</span></button>
+   </button>
+   <button class="btn mb-4 btn-primary-flat">
+      Flat button
+   </button>
+   <button class="btn mb-4 btn-icon">
+      <span class="material-icons">add</span>
+   </button>
 </div>
 
 ## Buttons sizes

@@ -1,8 +1,8 @@
 <template lang="html">
   <div
     id="sidebarContainer"
-    class="col p-2 z-10 col-w-lg-3  sidebar sidebar-collapse-lg bg-white"
-    style="border-right:1px solid rgba(0,0,0,0.12);"
+    style="top: calc(4.5rem + 2px);"
+    class="col p-4 z-10 w-lg-1/5  sidebar sidebar-collapse-lg bg-white"
   >
     <ul class="nav overflow-y-auto" style="max-height: 100%;">
       <li class="nav-item">
@@ -158,7 +158,7 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink to="//docs/utilities/z_index" class="nav-link"
+              <NuxtLink to="/docs/utilities/z_index" class="nav-link"
                 >Z-index</NuxtLink
               >
             </li>
