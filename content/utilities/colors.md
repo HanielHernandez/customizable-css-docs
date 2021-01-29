@@ -1,6 +1,7 @@
 ---
 title: Colors
 description: Learn how to use Customizable CSS Colorsclasses.
+category: utilities
 ---
 
 # Colors

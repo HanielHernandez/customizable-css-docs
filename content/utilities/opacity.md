@@ -1,6 +1,7 @@
 ---
 title: Opacity
 description: Learn how to use Customizable CSS Opacity classes.
+category: utilities
 ---
 # Opacity
 

@@ -1,6 +1,7 @@
 ---
 title: Overflow
 description: Learn how to use Customizable CSS Overflow classes.
+category: utilities
 ---
 
 ## Overflow

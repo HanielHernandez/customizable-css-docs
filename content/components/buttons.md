@@ -1,6 +1,7 @@
 ---
 title: 'Buttons'
 description: 'Learn how to use Customizable CSS Buttons'
+category: components
 tags:
 - button
 - buttons

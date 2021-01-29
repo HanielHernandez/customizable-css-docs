@@ -1,6 +1,7 @@
 ---
 title: 'Cards'
 description: 'Learn how to use Customizable CSS Cards'
+category: components
 tags:
 - cards
 - card image

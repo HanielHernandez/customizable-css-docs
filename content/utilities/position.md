@@ -1,6 +1,7 @@
 ---
 title: Positions
 description: Learn how to use customizable css Position classes.
+category: utilities
 ---
 ## Positions
 

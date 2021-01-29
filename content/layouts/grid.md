@@ -1,6 +1,7 @@
 ---
 title: 'Grid'
 description: 'Learn how to use Customizable CSS grid'
+category: layouts
 tags:
 - rows
 - columns

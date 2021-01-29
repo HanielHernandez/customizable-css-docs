@@ -1,3 +1,9 @@
+---
+title: Colors
+description: Learn how to use Customizable CSS Border and border radius classes.
+category: utilities
+---
+
 # Borders And Border Radius
 
 ## Borders 

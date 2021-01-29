@@ -1,6 +1,7 @@
 ---
 title: List
 description: Learn how to use Customizable CSS List
+category: components
 tags:
 - list
 - list group

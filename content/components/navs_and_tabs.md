@@ -1,6 +1,7 @@
 ---
 title: Navs and Tabs
 description: Learn how to use Customizable CSS Navs tabs
+category: components
 tags:
 - navs
 - breadcrumbs

@@ -1,6 +1,7 @@
 ---
 title: 'Modals'
 description: 'Learn how to use Customizable CSS Modals'
+category: components
 tags:
 - modals
 - alerts

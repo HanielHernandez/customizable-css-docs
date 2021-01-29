@@ -1,6 +1,7 @@
 ---
 title: Padding and Margin
 description: Learn how to use Customizable CSS Padding and Margin classes.
+category: utilities
 ---
 
 # Padding and Margin

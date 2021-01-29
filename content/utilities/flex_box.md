@@ -1,6 +1,7 @@
 ---
 title: Flexbox
 description: Learn how to use Customizable CSS flexbox utilities.
+category: utilities
 ---
 # Flexbox utilities
 

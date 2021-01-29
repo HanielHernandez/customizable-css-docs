@@ -1,6 +1,7 @@
 ---
 title: Navbar
 description: Learn how to use Customizable CSS Navars
+category: components
 tags:
 - navbar
 - navbar responsive

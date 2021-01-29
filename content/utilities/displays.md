@@ -1,6 +1,7 @@
 ---
 title: Display
 description: Learn how to use Customizable CSS Display classes.
+category: utilities
 ---
 
 # Displays

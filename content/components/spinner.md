@@ -1,6 +1,7 @@
 ---
 title: Spinner
 description: Learn how to use Customizable CSS Spinner
+category: components
 tags:
 - spinner
 - laoder

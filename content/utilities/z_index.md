@@ -1,6 +1,7 @@
 ---
 title: Z-Index
 description: Learn how to use Customizable CSS Colors classes.
+category: utilities
 ---
 # Z-Index
 

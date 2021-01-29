@@ -1,6 +1,7 @@
 ---
 title: Tables
 description: Learn how to use Customizable CSS Tables
+category: components
 tags:
 - tables
 - tables hoverable

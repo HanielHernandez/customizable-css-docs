@@ -1,6 +1,7 @@
 ---
 title: Forms field
 description: Learn how to use Customizable CSS Form field
+category: forms
 tags:
   - forms
   - form field

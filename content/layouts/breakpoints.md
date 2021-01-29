@@ -1,6 +1,7 @@
 ---
 title: "Breakpoints"
 description: "Learn how to use Customizable CSS Breakpoints"
+category: layouts
 tags:
   - breakpoints
 ---

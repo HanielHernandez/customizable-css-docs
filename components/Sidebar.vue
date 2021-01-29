@@ -179,7 +179,7 @@
             </li>
             <li class="nav-item">
               <NuxtLink
-                to="/docs/utilities/transitions_and_hover"
+                to="/docs/utilities/trasitions_and_hover"
                 class="nav-link"
                 >Transitions and Hover</NuxtLink
               >

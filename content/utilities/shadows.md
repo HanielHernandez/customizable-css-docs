@@ -1,6 +1,7 @@
 ---
 title: Sahdows
 description: Learn how to use customizable Shadows classes.
+category: utilities
 ---
 # Shadows 
 

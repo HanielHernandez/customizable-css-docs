@@ -1,6 +1,7 @@
 ---
 title: Notifications
 description: Learn how to use Customizable CSS Modals
+category: components
 tags:
 - notifications
 - toast
