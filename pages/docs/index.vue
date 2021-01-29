@@ -15,6 +15,7 @@
 </template>
 <script>
 //import displays from "../../../content/displays.md";
+import Prism from "~/plugins/prism";
 export default {
   layout: "doc",
   mounted() {

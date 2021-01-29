@@ -1,7 +1,7 @@
 <template lang="html">
   <div
     id="sidebarContainer"
-    style="top: calc(4.5rem + 2px);"
+    style="top: calc(3.5rem + 3px);"
     class="col p-4 z-10 w-lg-1/5  sidebar sidebar-collapse-lg bg-white"
   >
     <ul class="nav overflow-y-auto" style="max-height: 100%;">
@@ -35,7 +35,7 @@
           Forms
         </button>
         <div id="formsMenu" class="expandible">
-          <ul class="nav">
+          <ul class="nav pl-4">
             <li class="nav-item">
               <NuxtLink to="/docs/forms/form_field" class="nav-link">
                 Form field</NuxtLink
@@ -43,9 +43,9 @@
             </li>
             <li class="nav-item">
               <NuxtLink
-                to="/docs/forms/form_field#form_field_with_addons"
+                to="/docs/forms/form_field#form-field-with-addons"
                 class="nav-link"
-                >Foorm field with addon</NuxtLink
+                >Form field with addons</NuxtLink
               >
             </li>
           </ul>
@@ -60,7 +60,7 @@
           Components
         </button>
         <div id="componentsMenu" class="expandible">
-          <ul class="nav">
+          <ul class="nav pl-4">
             <li class="nav-item">
               <NuxtLink to="/docs/components/buttons" class="nav-link">
                 Buttons</NuxtLink
@@ -119,10 +119,15 @@
           Utilities
         </button>
         <div class="expandible" id="utilitiesMenu">
-          <ul class="nav">
+          <ul class="nav pl-4">
             <li class="nav-item">
               <NuxtLink to="/docs/utilities/colors" class="nav-link"
                 >Colors</NuxtLink
+              >
+            </li>
+            <li class="nav-item">
+              <NuxtLink to="/docs/utilities/borders_and_borders_radius" class="nav-link"
+                >Borders and Border Radius</NuxtLink
               >
             </li>
             <li class="nav-item">

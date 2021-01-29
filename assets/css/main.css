@@ -1816,7 +1816,7 @@ a.btn {
 }
 
 .b-red-600, .btn-red-600, .btn-red-600-outline, .hover\:b-red-600:hover {
-  border-color: #e53935;
+  border-color: #e53935 !important;
 }
 
 .btn-red-600:hover {
@@ -1852,7 +1852,7 @@ a.btn {
 }
 
 .b-pink-600, .btn-pink-600, .btn-pink-600-outline, .hover\:b-pink-600:hover {
-  border-color: #d81b60;
+  border-color: #d81b60 !important;
 }
 
 .btn-pink-600:hover {
@@ -1888,7 +1888,7 @@ a.btn {
 }
 
 .b-purple-600, .btn-purple-600, .btn-purple-600-outline, .hover\:b-purple-600:hover {
-  border-color: #8e24aa;
+  border-color: #8e24aa !important;
 }
 
 .btn-purple-600:hover {
@@ -1924,7 +1924,7 @@ a.btn {
 }
 
 .b-deep-purple-600, .btn-deep-purple-600, .btn-deep-purple-600-outline, .hover\:b-deep-purple-600:hover {
-  border-color: #5e35b1;
+  border-color: #5e35b1 !important;
 }
 
 .btn-deep-purple-600:hover {
@@ -1960,7 +1960,7 @@ a.btn {
 }
 
 .b-indigo-600, .btn-indigo-600, .btn-indigo-600-outline, .hover\:b-indigo-600:hover {
-  border-color: #3949ab;
+  border-color: #3949ab !important;
 }
 
 .btn-indigo-600:hover {
@@ -1996,7 +1996,7 @@ a.btn {
 }
 
 .b-blue-600, .btn-blue-600, .btn-blue-600-outline, .hover\:b-blue-600:hover {
-  border-color: #1e88e5;
+  border-color: #1e88e5 !important;
 }
 
 .btn-blue-600:hover {
@@ -2032,7 +2032,7 @@ a.btn {
 }
 
 .b-light-blue-600, .btn-light-blue-600, .btn-light-blue-600-outline, .hover\:b-light-blue-600:hover {
-  border-color: #039be5;
+  border-color: #039be5 !important;
 }
 
 .btn-light-blue-600:hover {
@@ -2068,7 +2068,7 @@ a.btn {
 }
 
 .b-cyan-600, .btn-cyan-600, .btn-cyan-600-outline, .hover\:b-cyan-600:hover {
-  border-color: #00acc1;
+  border-color: #00acc1 !important;
 }
 
 .btn-cyan-600:hover {
@@ -2104,7 +2104,7 @@ a.btn {
 }
 
 .b-teal-600, .btn-teal-600, .btn-teal-600-outline, .hover\:b-teal-600:hover {
-  border-color: #00897b;
+  border-color: #00897b !important;
 }
 
 .btn-teal-600:hover {
@@ -2140,7 +2140,7 @@ a.btn {
 }
 
 .b-green-600, .btn-green-600, .btn-green-600-outline, .hover\:b-green-600:hover {
-  border-color: #43a047;
+  border-color: #43a047 !important;
 }
 
 .btn-green-600:hover {
@@ -2176,7 +2176,7 @@ a.btn {
 }
 
 .b-light-green-600, .btn-light-green-600, .btn-light-green-600-outline, .hover\:b-light-green-600:hover {
-  border-color: #7cb342;
+  border-color: #7cb342 !important;
 }
 
 .btn-light-green-600:hover {
@@ -2212,7 +2212,7 @@ a.btn {
 }
 
 .b-lime-600, .btn-lime-600, .btn-lime-600-outline, .hover\:b-lime-600:hover {
-  border-color: #c0ca33;
+  border-color: #c0ca33 !important;
 }
 
 .btn-lime-600:hover {
@@ -2248,7 +2248,7 @@ a.btn {
 }
 
 .b-yellow-600, .btn-yellow-600, .btn-yellow-600-outline, .hover\:b-yellow-600:hover {
-  border-color: #fdd835;
+  border-color: #fdd835 !important;
 }
 
 .btn-yellow-600:hover {
@@ -2284,7 +2284,7 @@ a.btn {
 }
 
 .b-amber-600, .btn-amber-600, .btn-amber-600-outline, .hover\:b-amber-600:hover {
-  border-color: #ffb300;
+  border-color: #ffb300 !important;
 }
 
 .btn-amber-600:hover {
@@ -2320,7 +2320,7 @@ a.btn {
 }
 
 .b-orange-600, .btn-orange-600, .btn-orange-600-outline, .hover\:b-orange-600:hover {
-  border-color: #fb8c00;
+  border-color: #fb8c00 !important;
 }
 
 .btn-orange-600:hover {
@@ -2356,7 +2356,7 @@ a.btn {
 }
 
 .b-deep-orange-600, .btn-deep-orange-600, .btn-deep-orange-600-outline, .hover\:b-deep-orange-600:hover {
-  border-color: #f4511e;
+  border-color: #f4511e !important;
 }
 
 .btn-deep-orange-600:hover {
@@ -2392,7 +2392,7 @@ a.btn {
 }
 
 .b-brown-600, .btn-brown-600, .btn-brown-600-outline, .hover\:b-brown-600:hover {
-  border-color: #6d4c41;
+  border-color: #6d4c41 !important;
 }
 
 .btn-brown-600:hover {
@@ -2428,7 +2428,7 @@ a.btn {
 }
 
 .b-grey-600, .btn-grey-600, .btn-grey-600-outline, .hover\:b-grey-600:hover {
-  border-color: #757575;
+  border-color: #757575 !important;
 }
 
 .btn-grey-600:hover {
@@ -2464,7 +2464,7 @@ a.btn {
 }
 
 .b-blue-grey-600, .btn-blue-grey-600, .btn-blue-grey-600-outline, .hover\:b-blue-grey-600:hover {
-  border-color: #546e7a;
+  border-color: #546e7a !important;
 }
 
 .btn-blue-grey-600:hover {
@@ -3003,16 +3003,6 @@ span.material-icons {
   border: none;
 }
 
-.bx, .nav.tabs.outline .nav-link.is-active {
-  border-left: 1px solid rgba(0, 0, 0, 0.12);
-  border-right: 1px solid rgba(0, 0, 0, 0.12);
-}
-
-.by {
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-}
-
 .bx-0 {
   border-left-width: 0;
   border-right-width: 0;
@@ -3023,7 +3013,7 @@ span.material-icons {
   border-bottom-width: 0;
 }
 
-.bt, .nav.tabs.outline .nav-link.is-active {
+.bt, .nav.tabs.outline .nav-link.is-active, .by {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -3031,7 +3021,7 @@ span.material-icons {
   border-top-width: 0;
 }
 
-.bl {
+.bl, .bx, .nav.tabs.outline .nav-link.is-active {
   border-left: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -3039,7 +3029,7 @@ span.material-icons {
   border-left-width: 0;
 }
 
-.bb, .nav.tabs {
+.bb, .nav.tabs, .by {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -3047,7 +3037,7 @@ span.material-icons {
   border-bottom-width: 0;
 }
 
-.br {
+.br, .bx, .nav.tabs.outline .nav-link.is-active {
   border-right: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -4302,6 +4292,33 @@ span.material-icons {
 
 .text-justify {
   text-align: justify;
+}
+
+.trucate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overflow-elipsis {
+  text-overflow: ellipsis;
+}
+
+.overflow-clip {
+  text-overflow: clip;
+}
+
+.text-break {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.text-break-words {
+  overflow-wrap: break-word;
+}
+
+.text-break-all {
+  overflow-wrap: break-all;
 }
 
 .p-0,
@@ -5718,6 +5735,30 @@ span.material-icons {
       flex-wrap: inherit;
 }
 
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+}
+
+.flex-auto {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.flex-initial {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.flex-none {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
 .flex-direction-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5744,6 +5785,28 @@ span.material-icons {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+}
+
+.flex-g-0 {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.flex-g {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flex-s {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.flex-s-0 {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .align-start {
@@ -6265,7 +6328,7 @@ span.material-icons {
 }
 
 .b-dark, .btn-dark, .btn-dark-outline, .hover\:b-dark:hover {
-  border-color: #212121;
+  border-color: #212121 !important;
 }
 
 .btn-dark:hover {
@@ -6301,7 +6364,7 @@ span.material-icons {
 }
 
 .b-light, .btn-light, .btn-light-outline, .hover\:b-light:hover {
-  border-color: #e0e0e0;
+  border-color: #e0e0e0 !important;
 }
 
 .btn-light:hover {
@@ -6337,7 +6400,7 @@ span.material-icons {
 }
 
 .b-danger, .btn-danger, .btn-danger-outline, .hover\:b-danger:hover {
-  border-color: #b00020;
+  border-color: #b00020 !important;
 }
 
 .btn-danger:hover {
@@ -6373,7 +6436,7 @@ span.material-icons {
 }
 
 .b-success, .btn-success, .btn-success-outline, .hover\:b-success:hover {
-  border-color: #5cb85c;
+  border-color: #5cb85c !important;
 }
 
 .btn-success:hover {
@@ -6409,7 +6472,7 @@ span.material-icons {
 }
 
 .b-primary, .btn-primary, .btn-primary-outline, .hover\:b-primary:hover {
-  border-color: #1e88e5;
+  border-color: #1e88e5 !important;
 }
 
 .btn-primary:hover {
@@ -6445,7 +6508,7 @@ span.material-icons {
 }
 
 .b-transparent, .btn-transparent, .btn-transparent-outline, .hover\:b-transparent:hover {
-  border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .btn-transparent:hover {
@@ -6481,7 +6544,7 @@ span.material-icons {
 }
 
 .b-white, .btn-white, .btn-white-outline, .hover\:b-white:hover {
-  border-color: #fff;
+  border-color: #fff !important;
 }
 
 .btn-white:hover {
@@ -9925,7 +9988,7 @@ span.material-icons {
     width: 41.66667%;
     max-width: 41.66667%;
   }
-  .w-lg-6\/12 {
+  .w-lg-6\/12 { 
     width: 50%;
     max-width: 50%;
   }
