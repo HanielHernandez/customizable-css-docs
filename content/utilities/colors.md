@@ -50,7 +50,7 @@ you change text color property of a div by using the classes **.text-{theme name
                         </p>
                     </div>
 
-## Import custom colors
+## Import suported colors
 
 In order to make the main css file lighter we do not create themes for all the suported colors, only the 600 variation (**blue-600**), you can create theme for on of those colors like this:
 

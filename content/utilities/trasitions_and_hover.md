@@ -1,5 +1,5 @@
 ---
-title: Tranisitons and Hover
+title: Transitions and Hover
 description: Learn how to use customizable css Transitions and hover classes.
 category: utilities
 ---

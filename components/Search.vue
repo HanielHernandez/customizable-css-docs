@@ -6,7 +6,7 @@
         >
           <ais-autocomplete v-click-outside="onClickOutside">
             <div slot-scope="{ currentRefinement, indices, refine }" >
-              <div class="b r relative overflo-hidden">
+              <div class="shadow-sm search-group b b-w-2 hover:b-w-2 hover:b-blue-600 r-2 relative overflow-hidden">
                 <div class="absolute display-flex justify-center align-center" style="color:rgba(0,0,0,0.12);width:38px; height:38px; left:0; right:0;"  >
                   <i class="material-icons " style="margin:0px auto;">
                     search
@@ -110,8 +110,8 @@ export default {
 .h3 {
   text-transform: uppercase;
 }
-.search-container {
-  background: rgba(0, 0, 0, 25);
+.search-group{
+
 }
 .input{
   &:focus{

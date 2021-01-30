@@ -20,6 +20,7 @@ You can create responsive navbar by adding a **.navbar-collapse-{breakpoint}**, 
      *  **.nav** element with your links or any other kind of element
 
 ```html
+
 <nav class="navbar b navbar-white navbar-collapse-md">
     <a class="brand">
         Brand

@@ -27,17 +27,23 @@
     <!-- Navigation -->
     <div class="nav-menu flex-auto justify-end hidden " id="navbar_navigation">
       <ul class="nav justify-end">
-        <li class="nav-item py-2 display-none display-md-block">
+        <li class="nav-item py-2 display-none display-md-block pr-2">
                 <search class="display-sm-0" />
         </li>
-        <li class="nav-item">
-          <nuxt-link to="/" class="nav-link">Home</nuxt-link>
+        <li class="nav-item ">
+          <nuxt-link to="/" class="nav-link hover:text-blue-600">
+            Home
+          </nuxt-link>
         </li>
-        <li class="nav-item">
-          <nuxt-link to="/docs" class="nav-link">Docs</nuxt-link>
+        <li class="nav-item ">
+          <nuxt-link to="/docs/" class="nav-link hover:text-blue-600" >
+            Docs
+          </nuxt-link>
         </li>
-        <li class="nav-item">
-          <nuxt-link to="/about" class="nav-link">About</nuxt-link>
+        <li class="nav-item hover:text-blue-600">
+          <nuxt-link to="/about/" class="nav-link  hover:text-blue-600" >
+            About
+          </nuxt-link>
         </li>
       </ul>
        </div>
@@ -62,8 +68,8 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-.nav-menu{
-
+<style scoped lang="scss">
+.nav-link:hover{
+  background: rgba( #1e88e5, 0.12);
 }
 </style>
