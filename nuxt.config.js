@@ -86,7 +86,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: "prism-themes/themes/prism-material-oceanic.css"
+        theme: "~/assets/css/prism-theme.css"//"prism-themes/themes/prism-material-light.css"// 'prismjs/themes/prism.css'
       }
     }
   },

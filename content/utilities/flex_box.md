@@ -206,11 +206,10 @@ Adding class flex 1  to a children of a flex element will make then growth same 
     <div class="flex-1 ..."> 1 </div>
     <div class="flex-1 ..."> 2 </div>
     <div class="flex-1 ..."> 3 </div>
-
 </div>
 ```
 <div class="row b my-4 p-4 flex-wrap-reverse overflow-hidden" >
-   <div class=" flex-1 b p-2"> 1 </div>
+  <div class=" flex-1 b p-2"> 1 </div>
   <div class=" flex-1 b p-2"> 1 </div>
   <div class=" flex-1 w-2/3 b p-2"> 1  </div>
 </div>

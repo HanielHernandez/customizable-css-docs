@@ -57,7 +57,7 @@ In order to make the main css file lighter we do not create themes for all the s
 ```scss
 // Get the color variant
 $color: get-color("red", 600);
-//create your entire theme base on a color
+// Create your entire theme base on the color
 @include create-theme("red-500", $color); 
 ```
 

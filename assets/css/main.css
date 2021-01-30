@@ -1899,7 +1899,7 @@ a.btn {
 }
 
 .btn-red-600-flat:hover {
-  background-color: rgba(229, 57, 53, 0.5);
+  background-color: rgba(229, 57, 53, 0.12);
 }
 
 .btn-red-600-outline {
@@ -1984,7 +1984,7 @@ a.btn {
 }
 
 .btn-pink-600-flat:hover {
-  background-color: rgba(216, 27, 96, 0.5);
+  background-color: rgba(216, 27, 96, 0.12);
 }
 
 .btn-pink-600-outline {
@@ -2069,7 +2069,7 @@ a.btn {
 }
 
 .btn-purple-600-flat:hover {
-  background-color: rgba(142, 36, 170, 0.5);
+  background-color: rgba(142, 36, 170, 0.12);
 }
 
 .btn-purple-600-outline {
@@ -2154,7 +2154,7 @@ a.btn {
 }
 
 .btn-deep-purple-600-flat:hover {
-  background-color: rgba(94, 53, 177, 0.5);
+  background-color: rgba(94, 53, 177, 0.12);
 }
 
 .btn-deep-purple-600-outline {
@@ -2239,7 +2239,7 @@ a.btn {
 }
 
 .btn-indigo-600-flat:hover {
-  background-color: rgba(57, 73, 171, 0.5);
+  background-color: rgba(57, 73, 171, 0.12);
 }
 
 .btn-indigo-600-outline {
@@ -2324,7 +2324,7 @@ a.btn {
 }
 
 .btn-blue-600-flat:hover {
-  background-color: rgba(30, 136, 229, 0.5);
+  background-color: rgba(30, 136, 229, 0.12);
 }
 
 .btn-blue-600-outline {
@@ -2409,7 +2409,7 @@ a.btn {
 }
 
 .btn-light-blue-600-flat:hover {
-  background-color: rgba(3, 155, 229, 0.5);
+  background-color: rgba(3, 155, 229, 0.12);
 }
 
 .btn-light-blue-600-outline {
@@ -2494,7 +2494,7 @@ a.btn {
 }
 
 .btn-cyan-600-flat:hover {
-  background-color: rgba(0, 172, 193, 0.5);
+  background-color: rgba(0, 172, 193, 0.12);
 }
 
 .btn-cyan-600-outline {
@@ -2579,7 +2579,7 @@ a.btn {
 }
 
 .btn-teal-600-flat:hover {
-  background-color: rgba(0, 137, 123, 0.5);
+  background-color: rgba(0, 137, 123, 0.12);
 }
 
 .btn-teal-600-outline {
@@ -2664,7 +2664,7 @@ a.btn {
 }
 
 .btn-green-600-flat:hover {
-  background-color: rgba(67, 160, 71, 0.5);
+  background-color: rgba(67, 160, 71, 0.12);
 }
 
 .btn-green-600-outline {
@@ -2749,7 +2749,7 @@ a.btn {
 }
 
 .btn-light-green-600-flat:hover {
-  background-color: rgba(124, 179, 66, 0.5);
+  background-color: rgba(124, 179, 66, 0.12);
 }
 
 .btn-light-green-600-outline {
@@ -2834,7 +2834,7 @@ a.btn {
 }
 
 .btn-lime-600-flat:hover {
-  background-color: rgba(192, 202, 51, 0.5);
+  background-color: rgba(192, 202, 51, 0.12);
 }
 
 .btn-lime-600-outline {
@@ -2919,7 +2919,7 @@ a.btn {
 }
 
 .btn-yellow-600-flat:hover {
-  background-color: rgba(253, 216, 53, 0.5);
+  background-color: rgba(253, 216, 53, 0.12);
 }
 
 .btn-yellow-600-outline {
@@ -3004,7 +3004,7 @@ a.btn {
 }
 
 .btn-amber-600-flat:hover {
-  background-color: rgba(255, 179, 0, 0.5);
+  background-color: rgba(255, 179, 0, 0.12);
 }
 
 .btn-amber-600-outline {
@@ -3089,7 +3089,7 @@ a.btn {
 }
 
 .btn-orange-600-flat:hover {
-  background-color: rgba(251, 140, 0, 0.5);
+  background-color: rgba(251, 140, 0, 0.12);
 }
 
 .btn-orange-600-outline {
@@ -3174,7 +3174,7 @@ a.btn {
 }
 
 .btn-deep-orange-600-flat:hover {
-  background-color: rgba(244, 81, 30, 0.5);
+  background-color: rgba(244, 81, 30, 0.12);
 }
 
 .btn-deep-orange-600-outline {
@@ -3259,7 +3259,7 @@ a.btn {
 }
 
 .btn-brown-600-flat:hover {
-  background-color: rgba(109, 76, 65, 0.5);
+  background-color: rgba(109, 76, 65, 0.12);
 }
 
 .btn-brown-600-outline {
@@ -3344,7 +3344,7 @@ a.btn {
 }
 
 .btn-grey-600-flat:hover {
-  background-color: rgba(117, 117, 117, 0.5);
+  background-color: rgba(117, 117, 117, 0.12);
 }
 
 .btn-grey-600-outline {
@@ -3429,7 +3429,7 @@ a.btn {
 }
 
 .btn-blue-grey-600-flat:hover {
-  background-color: rgba(84, 110, 122, 0.5);
+  background-color: rgba(84, 110, 122, 0.12);
 }
 
 .btn-blue-grey-600-outline {
@@ -7350,7 +7350,7 @@ span.material-icons {
 }
 
 .btn-dark-flat:hover {
-  background-color: rgba(33, 33, 33, 0.5);
+  background-color: rgba(33, 33, 33, 0.12);
 }
 
 .btn-dark-outline {
@@ -7435,7 +7435,7 @@ span.material-icons {
 }
 
 .btn-light-flat:hover {
-  background-color: rgba(224, 224, 224, 0.5);
+  background-color: rgba(224, 224, 224, 0.12);
 }
 
 .btn-light-outline {
@@ -7520,7 +7520,7 @@ span.material-icons {
 }
 
 .btn-danger-flat:hover {
-  background-color: rgba(176, 0, 32, 0.5);
+  background-color: rgba(176, 0, 32, 0.12);
 }
 
 .btn-danger-outline {
@@ -7605,7 +7605,7 @@ span.material-icons {
 }
 
 .btn-success-flat:hover {
-  background-color: rgba(92, 184, 92, 0.5);
+  background-color: rgba(92, 184, 92, 0.12);
 }
 
 .btn-success-outline {
@@ -7690,7 +7690,7 @@ span.material-icons {
 }
 
 .btn-primary-flat:hover {
-  background-color: rgba(30, 136, 229, 0.5);
+  background-color: rgba(30, 136, 229, 0.12);
 }
 
 .btn-primary-outline {
@@ -7775,7 +7775,7 @@ span.material-icons {
 }
 
 .btn-transparent-flat:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.12);
 }
 
 .btn-transparent-outline {
@@ -7860,7 +7860,7 @@ span.material-icons {
 }
 
 .btn-white-flat:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .btn-white-outline {
@@ -7945,7 +7945,7 @@ span.material-icons {
 }
 
 .btn-trasnparent-flat:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.12);
 }
 
 .btn-trasnparent-outline {

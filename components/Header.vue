@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="navbar fixed z-20 navbar-collapse-md navbar-white" style="top:0; right:0;">
     <div class="container container-xxl row justify-between align-center" >
-    <nuxt-link to="/" class="brand"> Customizable CSS</nuxt-link>
+    <nuxt-link to="/" class="brand text-blue-600"> Customizable CSS</nuxt-link>
     <div class="searchbar-container display-md-none" :class="{show:showSearchBar}">
       <search class="display-sm-0"> </search>
     </div>

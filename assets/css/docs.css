@@ -25,6 +25,13 @@
   }
 }
 
+div.code-toolbar > .toolbar button{
+  padding: 0.5rem !important; 
+  margin-right: 0.5rem;
+}
 
+pre{
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=docs.css.map */

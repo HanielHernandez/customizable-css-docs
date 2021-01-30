@@ -24,7 +24,7 @@
               class="input pl-9 py-2 r pr-4 w-12 b-0"
               style="font-size:1rem"
               type="search"
-              placeholder="Search"
+              placeholder="Quick Search "
               :value="currentRefinement"
               @focus="showResults = true"
               @input="refine($event.currentTarget.value)"
@@ -110,7 +110,16 @@ export default {
       showResults: false
     };
   },
-
+  mounted(){
+    this.$nextTick(()=>{
+      window.addEventListener('keydown',(event)=>{
+          if(event.ctrlKey  && event.key === 'k'){
+              this.$refs.searchInput.focus();
+              event.preventDefault();
+          }
+      })
+    })
+  },
   methods: {
     onClickOutside() {
       this.showResults = false;
