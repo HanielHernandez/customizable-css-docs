@@ -534,6 +534,56 @@ input {
   max-height: 100%;
 }
 
+.w-1\/5 {
+  width: 20%;
+  max-width: 20%;
+}
+
+.h-1\/5 {
+  height: 20%;
+  max-height: 20%;
+}
+
+.w-2\/5 {
+  width: 40%;
+  max-width: 40%;
+}
+
+.h-2\/5 {
+  height: 40%;
+  max-height: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+  max-width: 60%;
+}
+
+.h-3\/5 {
+  height: 60%;
+  max-height: 60%;
+}
+
+.w-4\/5 {
+  width: 80%;
+  max-width: 80%;
+}
+
+.h-4\/5 {
+  height: 80%;
+  max-height: 80%;
+}
+
+.w-5\/5 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.h-5\/5 {
+  height: 100%;
+  max-height: 100%;
+}
+
 .w-1\/4 {
   width: 25%;
   max-width: 25%;
@@ -6578,11 +6628,13 @@ span.material-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
   }
   .navbar-collapse-sm .nav-toggler {
     display: none;
   }
   .navbar-collapse-sm .nav-menu {
+    width: auto;
     height: 100%;
     overflow-y: visible;
     display: -webkit-box;
@@ -8203,11 +8255,13 @@ span.material-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
   }
   .navbar-collapse-md .nav-toggler {
     display: none;
   }
   .navbar-collapse-md .nav-menu {
+    width: auto;
     height: 100%;
     overflow-y: visible;
     display: -webkit-box;
@@ -9828,11 +9882,13 @@ span.material-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
   }
   .navbar-collapse-lg .nav-toggler {
     display: none;
   }
   .navbar-collapse-lg .nav-menu {
+    width: auto;
     height: 100%;
     overflow-y: visible;
     display: -webkit-box;
@@ -9988,7 +10044,7 @@ span.material-icons {
     width: 41.66667%;
     max-width: 41.66667%;
   }
-  .w-lg-6\/12 { 
+  .w-lg-6\/12 {
     width: 50%;
     max-width: 50%;
   }
@@ -11453,11 +11509,13 @@ span.material-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
   }
   .navbar-collapse-xl .nav-toggler {
     display: none;
   }
   .navbar-collapse-xl .nav-menu {
+    width: auto;
     height: 100%;
     overflow-y: visible;
     display: -webkit-box;
@@ -13078,11 +13136,13 @@ span.material-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
   }
   .navbar-collapse-xxl .nav-toggler {
     display: none;
   }
   .navbar-collapse-xxl .nav-menu {
+    width: auto;
     height: 100%;
     overflow-y: visible;
     display: -webkit-box;

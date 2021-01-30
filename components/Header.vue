@@ -1,9 +1,9 @@
 <template lang="html">
   <div class="navbar fixed z-20 navbar-collapse-md navbar-white" style="top:0; right:0;">
-    <div class="container container-xxl row justify-between align-center" style="margin:0px auto;">
+    <div class="container container-xxl row justify-between align-center" >
     <nuxt-link to="/" class="brand"> Customizable CSS</nuxt-link>
     <div class="searchbar-container display-md-none" :class="{show:showSearchBar}">
-      <search class="display-sm-0" />
+      <search class="display-sm-0"> </search>
     </div>
     <div class="pr-4">
 <a class="btn b-0 mr-0 p-2 display-sm-none " @click="toggleSearchBar()" data-target="navbar_navigation">
@@ -25,8 +25,8 @@
     </div>
 
     <!-- Navigation -->
-    <div class="nav-menu flex-auto justify-end hidden flex-auto" style="width:auto" id="navbar_navigation">
-      <ul class="nav">
+    <div class="nav-menu flex-auto justify-end hidden " id="navbar_navigation">
+      <ul class="nav justify-end">
         <li class="nav-item py-2 display-none display-md-block">
                 <search class="display-sm-0" />
         </li>
@@ -63,4 +63,7 @@ export default {
 };
 </script>
 <style lang="scss">
+.nav-menu{
+
+}
 </style>

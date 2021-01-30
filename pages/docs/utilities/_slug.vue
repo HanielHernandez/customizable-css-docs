@@ -1,6 +1,6 @@
 <template>
   <div class="row flex-wrap-reverse">
-    <div class="w-12/12 w-md-8/12 w-lg-9/12 w-xl-4/5py-4 pr-4">
+    <div class="w-12/12 w-md-8/12 w-lg-9/12 w-xl-4/5 py-4 pr-4">
     <nuxt-content :document="utility" />
       <template v-if="slug == 'colors'">
       <colorlist />

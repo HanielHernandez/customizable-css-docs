@@ -9,7 +9,7 @@
   top: 0.5rem;
   left: 1rem;
   width: auto;
-  width: calc(100vw - 8rem);
+  width: calc(100vw - 8.5rem);
   transition: all 0.3s ease-in-out;
   &:not(.show){
   transform: translateY(-4.5rem) ;

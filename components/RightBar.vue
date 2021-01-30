@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="px-4 ">
+    <div class="pl-4 ">
         <p class="font-medium font-sm mb-0 pb-2 bb">
             On this page
         </p>
