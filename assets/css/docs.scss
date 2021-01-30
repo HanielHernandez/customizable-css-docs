@@ -1,0 +1,29 @@
+
+
+.nav, .list{
+  padding-inline-start: 0;
+}
+
+.searchbar-container{
+  position: fixed;
+  top: 0.5rem;
+  left: 1rem;
+  width: auto;
+  width: calc(100vw - 8rem);
+  transition: all 0.3s ease-in-out;
+  &:not(.show){
+  transform: translateY(-4.5rem) ;
+  }
+}
+
+@media (min-width:568px) {
+  .searchbar-container{
+    transform: none;
+    position: static;
+    width: 300px;
+    &:not(.show){
+      transform:none;
+      }
+  }
+
+}
