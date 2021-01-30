@@ -12,22 +12,22 @@ you change background color property of a div by using the classes **.bg-{theme 
 
 ```html
 <div class="row mb-4">
-  <div class=" p-12 bg-dark w-1/2 w-md-12/12">
+  <div class=" p-12 bg-dark w-1/2 text-white w-md-12/12">
     <p class="">div with <b>.bg-dark</b></p>
   </div>
-  <div class="inline-block p-12 bg-primary w-1/2 w-md-12/12">
+  <div class="inline-block p-12 bg-primary text-dark w-1/2 w-md-12/12">
     <p class="">div with <b>.bg-primary</b></p>
   </div>
 </div>
 ```
 
 <div class="row my-4">
-                        <div class=" p-12 bg-dark w-1/2 w-md-12/12">
+                        <div class=" bg-dark p-12 text-white  w-1/2 w-md-12/12">
                             <p class="">
                                 div with <b>.bg-dark</b>
                             </p>
                         </div>
-                        <div class="inline-block p-12 bg-primary w-1/2 w-md-12/12">
+                        <div class="inline-block  text-white p-12 bg-primary w-1/2 w-md-12/12">
                             <p class="">
                                 div with <b>.bg-primary</b>
                             </p>
