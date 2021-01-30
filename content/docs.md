@@ -1,6 +1,6 @@
 # Customizable CSS docs
 
-This is customizable css official documentation, It will be updated as new version are realesed
+This is customizable css official documentation, It will be updated as new features are created
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm i customizable-css
 
 ### Import
 
-If you want customize some variables you can then import the main sass file
+If you want customize some variables or override classes you can then import the main sass file in your own sass
 
 ```scss
 @import "~customizable-css/css/main.scss";
@@ -22,7 +22,7 @@ If you want customize some variables you can then import the main sass file
 
 ### CDN
 
-You can also use this **CDN**
+If you want to go strait to coding you can use this **CDN**
 
 ```html
 <!-- CSS -->
@@ -39,7 +39,7 @@ You can also use this **CDN**
 
 ### Clone
 
-Or you can clone the entire repo
+Lastly you can clone the entire repo
 
 ```bash
   git clone https://github.com/HanielHernandez/custom-css.git

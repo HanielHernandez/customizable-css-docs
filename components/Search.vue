@@ -24,7 +24,7 @@
               class="input pl-9 py-2 r pr-4 w-12 b-0"
               style="font-size:1rem"
               type="search"
-              placeholder="Quick Search "
+              placeholder="Search (CTRL+K)"
               :value="currentRefinement"
               @focus="showResults = true"
               @input="refine($event.currentTarget.value)"

@@ -1,6 +1,7 @@
 <template lang="html">
   <div
     id="sidebarContainer"
+    v-click-outside="onClickOutside"
     style="top: calc(3.5rem + 3px);"
     class="col p-4 z-10 w-lg-1/5  sidebar sidebar-collapse-lg bg-white"
   >
@@ -192,9 +193,23 @@
     <button
       class="btn expand-btn sidebar-toggler bg-white"
       data-target="sidebarContainer"
+      ref="closeSidebar"
       id="expandTrigger"
     >
       <span class="material-icons"> chevron_right</span>
     </button>
   </div>
 </template>
+<script>
+import vClickOutside from "v-click-outside";
+export default {
+  directives:{
+        clickOutside: vClickOutside.directive
+  },
+  methods:{
+    onClickOutside(){
+      
+    }
+  }
+}
+</script>
