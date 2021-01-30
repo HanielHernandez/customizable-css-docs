@@ -8,9 +8,9 @@ import "prismjs/plugins/toolbar/prism-toolbar";
 import "prismjs/plugins/toolbar/prism-toolbar.css";
 
 // Include the line numbers plugin: (optional)
-import "prismjs/plugins/line-numbers/prism-line-numbers";
+/*import "prismjs/plugins/line-numbers/prism-line-numbers";
 import "prismjs/plugins/line-numbers/prism-line-numbers.css";
-
+*/
 // Include the line highlight plugin: (optional)
 import "prismjs/plugins/line-highlight/prism-line-highlight";
 import "prismjs/plugins/line-highlight/prism-line-highlight.css";

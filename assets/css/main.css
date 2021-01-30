@@ -49,15 +49,6 @@
           box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-}
-
 html,
 body,
 div,
@@ -66,11 +57,17 @@ applet,
 object,
 iframe,
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
+.h5,
 h6,
+.h6,
 p,
 blockquote,
 pre,
@@ -138,6 +135,24 @@ audio,
 video {
   margin: 0;
   padding: 0;
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -894,6 +909,7 @@ input {
 }
 
 .form-field label {
+  display: inline-block;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.25;
@@ -3469,64 +3485,40 @@ a.btn {
   border-right-color: rgba(84, 110, 122, 0.87);
 }
 
-h1 {
+
+h1,
+.h1 {
   margin-top: 0;
 }
 
-h2 {
+
+h2,
+.h2 {
   margin-top: 0;
 }
 
-h3 {
+
+h3,
+.h3 {
   margin-top: 0;
 }
 
-h4 {
+
+h4,
+.h4 {
   margin-top: 0;
 }
 
-h5 {
+
+h5,
+.h5 {
   margin-top: 0;
 }
 
-h6 {
+
+h6,
+.h6 {
   margin-top: 0;
-}
-
-.h1,
-h1 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.h2,
-h2 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.h3,
-h3 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.h4,
-h4 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.h5,
-h5 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.h6,
-h6 {
-  font-weight: 500;
-  margin-bottom: 1rem;
 }
 
 .italic {
@@ -3541,7 +3533,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.2;
 }
 
-h1 {
+
+h1,
+.h1 {
   font-size: 2em;
 }
 
@@ -3549,7 +3543,9 @@ h1 {
   font-size: 2em;
 }
 
-h2 {
+
+h2,
+.h2 {
   font-size: 1.5em;
 }
 
@@ -3557,7 +3553,9 @@ h2 {
   font-size: 1.5em;
 }
 
-h3 {
+
+h3,
+.h3 {
   font-size: 1.17em;
 }
 
@@ -3565,7 +3563,9 @@ h3 {
   font-size: 1.17em;
 }
 
-h4 {
+
+h4,
+.h4 {
   font-size: 1.12rem;
 }
 
@@ -3573,7 +3573,9 @@ h4 {
   font-size: 1.12rem;
 }
 
-h5 {
+
+h5,
+.h5 {
   font-size: 0.83em;
 }
 
@@ -3581,7 +3583,9 @@ h5 {
   font-size: 0.83em;
 }
 
-h6 {
+
+h6,
+.h6 {
   font-size: 0.75em;
 }
 

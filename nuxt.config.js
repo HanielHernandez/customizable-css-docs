@@ -60,22 +60,22 @@ export default {
     paths: [
       {
         name: "components",
-        index: "docs",
+        index: "components",
         fields: ["title", "description", "tags",'category',"bodyPlainText"]
       },
       {
         name: "forms",
-        index: "docs",
+        index: "forms",
         fields: ["title", "description","tags", 'category', "bodyPlainText"]
       },
       {
         name: "layouts",
-        index: "docs",
+        index: "layouts",
         fields: ["title", "description","tags",'category', "bodyPlainText"]
       },
       {
         name: "utilities",
-        index: "docs",
+        index: "utilities",
         fields: ["title", "description","tags", 'category',"bodyPlainText"]
       }
     ]
@@ -86,7 +86,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: "prism-themes/themes/prism-material-light.css"
+        theme: "prism-themes/themes/prism-material-oceanic.css"
       }
     }
   },
