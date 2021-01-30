@@ -9,15 +9,17 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 <script>
 import Sidebar from "../components/Sidebar";
-
+import Footer from '../components/Footer';
 export default {
   layout:'doc',
   components: {
-    Sidebar
+    Sidebar,
+    Footer
   }
 };
 </script>

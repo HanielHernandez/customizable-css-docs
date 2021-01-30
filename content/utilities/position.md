@@ -3,7 +3,7 @@ title: Positions
 description: Learn how to use customizable css Position classes.
 category: utilities
 ---
-## Positions
+# Positions
 
 you can set the position property of a div by using one of the following classes
 

@@ -151,6 +151,9 @@ You can change flex-wrap property with the following classes:
 
 ## Shrink and Grow
 
+yi
+
+you can
 <table class="table-with-border my-4">
   <thead>
       <th>
